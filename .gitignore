@@ -1,0 +1,18 @@
+######################
+# OS generated files #
+######################
+ehthumbs.db
+Icon?
+Thumbs.db
+*.psd
+*.ai
+.svn/**
+.DS_Store
+__MACOSX
+node_modules/
+temp/
+*.un~
+*.sublime-project
+*.sublime-workspace
+*.zip
+package-lock.json

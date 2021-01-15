@@ -1,0 +1,126 @@
+.tooltip {
+    position: relative;
+    display: inline-block;
+    background-image: linear-gradient(to left, #f89732, #e5762f, #86c656, #169a54, #10bbdf, #543594, #ad3092, #891141, #f04f43, #b51f2a);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    border-bottom: 1px solid #ad3092;
+    cursor: none;
+}
+
+.tooltipKeep {
+    position: relative;
+    display: inline-block;
+    color: #e5762f;
+    border-bottom: 1px #e5762f;
+    cursor: help;
+}
+
+.tooltipNext {
+    position: relative;
+    display: inline-block;
+    color: #86c656;
+    border-bottom: 1px #86c656;
+    cursor: help;
+}
+
+.tip {
+    visibility: hidden;
+    width: 150px;
+    background-color: #10bbdf;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px 0;
+    position: absolute;
+    bottom: 120%;
+    left: 50%;
+    margin-left: -75%;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tip.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -4px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: transparent;
+    border-top-color: #10bbdf;
+}
+
+.tipKeep {
+    visibility: hidden;
+    width: 150px;
+    background-color: #f89732;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px 0;
+    position: absolute;
+    bottom: 120%;
+    left: 50%;
+    margin-left: -75%;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tipKeep.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tipKeep::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -4px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: transparent;
+    border-top-color: #f89732;
+}
+
+.tipNext {
+    visibility: hidden;
+    width: 150px;
+    background-color: #169a54;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px 0;
+    position: absolute;
+    bottom: 120%;
+    left: 50%;
+    margin-left: -75%;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tipNext.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tipNext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -4px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: transparent;
+    border-top-color: #169a54;
+}

@@ -1,0 +1,102 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="https://by.prodigious.com/careers/pdg-favicon.png" />
+    <title>Junior Talent</title>
+    <style>
+        body {
+            font-size: 1.3em;
+        }
+        
+        .container {
+            margin: 40px;
+            margin-top: 60px;
+        }
+        
+        button {
+            width: 200px;
+            background: #eee;
+            padding: 10px;
+            margin: 20px auto;
+            border: none;
+            border-radius: 4px;
+            font-size: 1em;
+            cursor: pointer;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- tooltip -->
+        <p>Hello Junior Talent learners and welcome to <span class="tooltip" data-message="We are magic makers :)">Prodigious</span>. Please find some useful information here! Feel free to bookmark and come back when needed</p>
+        <h2>Documentation</h2>
+        <!-- dropdowns -->
+        <div class="dropdown">
+            <div class="trigger">TestNG</div>
+            <div class="content">
+                <p>
+                    <a href="https://testng.org/doc/documentation-main.html" target="_blank">Official documentation</a>
+                </p>
+            </div>
+        </div>
+        <div class="dropdown">
+            <div class="trigger">MVN</div>
+            <div class="content">
+                <p>
+                    <a href="https://maven.apache.org/index.html" target="_blank">Official documentation</a>
+                </p>
+            </div>
+        </div>
+        <h2>Keep Learning</h2>
+        <!-- tabs -->
+        <div class="tabs">
+            <ul>
+                <li class="trigger active" data-target="#testng">TestNG</li>
+                <li class="trigger" data-target="#mvn">MVN</li>
+                <li class="trigger" data-target="#next">Next Steps</li>
+            </ul>
+            <div id="testng" class="content active">
+                <h3>Research about...</h3>
+                <p>
+                    Other types of <a href="https://testng.org/doc/documentation-main.html#annotations" target="_blank">Annotations</a> like @DataProvider <span class="tooltipKeep" data-message="Read about 2D Arrays in Java">(hint)</span>
+                </p>
+                <p>
+                    <a href="https://javadoc.jitpack.io/com/github/cbeust/testng/master/javadoc/org/testng/ITestListener.html" target="_blank">ITestListener</a> and other
+                    <a href="https://testng.org/doc/documentation-main.html#testng-listeners" target="_blank">TestNG Listeners</a></p>
+            </div>
+            <div id="mvn" class="content">
+                <h3>Read about...</h3>
+                <p>The
+                    <a href="http://maven.apache.org/background/philosophy-of-maven.html" target="_blank">Philosophy of Maven</a>
+                </p>
+                <p>Different technologies that can be used from the
+                    <a href="https://mvnrepository.com/" target="_blank">MVN Repository</a>
+                </p>
+            </div>
+            <div id="next" class="content">
+                <h3>Small Challenge</h3>
+                <p>Interact with the CTA at the bottom creating a TestNG test case in a small MVN project, don't forget about the Selenium WebDriver. <span class="tooltipNext" data-message="There is only 1 <button> tag in this html">(hint)</span></p>
+                <h3>Keep learning</h3>
+                <p>Try reading about
+                    <a href="https://docs.gitlab.com/ee/ci/introduction/" target="_blank">Continuous Integration</a> and
+                    <a href="https://www.jenkins.io/doc/" target="_blank">Jenkins</a></p>
+                <p>You can always subscribe to a new podcast or <a href="https://softwaretestingweekly.com/" target="_blank">newsletter</a> about Software Testing</p>
+                <h4>Best of luck in becoming an automation tester master!</h4>
+            </div>
+        </div>
+        <div>
+            <button class="snackbar-trigger">click me</button>
+        </div>
+    </div>
+
+    <script src="assets/bundle.js">
+    </script>
+</body>
+
+</html>
