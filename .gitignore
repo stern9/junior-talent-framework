@@ -16,3 +16,4 @@ temp/
 *.sublime-workspace
 *.zip
 package-lock.json
+.prettierrc
